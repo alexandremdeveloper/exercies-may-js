@@ -5,11 +5,16 @@
 
     console.log(somar(20,12))
 
-*/
-
-/*let deuses = ["Aegir","Aud","Balder"];
-    function name(params) {
-        
-    }*/
 
 
+let deuses = ["Aegir","Aud","Balder"];
+let total = deuses.push("Loki");
+
+console.log(deuses);*/
+
+var deuses = ["Aegir", "Aud", "Balder", "Bragi", "Búri", "Dag", "Dellingr"];
+document.querySelector("nomes").innerHTML = deuses;
+
+function myFunction() {
+  deuses.push("Loki");
+  document.querySelector("nomes").innerHTML = deuses;
