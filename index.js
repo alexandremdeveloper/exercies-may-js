@@ -10,14 +10,13 @@
 let deuses = ["Aegir","Aud","Balder"];
 let total = deuses.push("Loki");
 
-console.log(deuses);*/
+console.log(deuses)*/
 
 var deuses = ["Aegir", "Aud", "Balder", "Bragi", "Búri", "Dag", "Dellingr"];
 
-function addDeus{
-  deuses.push("Loki")
-  document.getElementById("nomes").innerHTML = nomes;
-    alert()
-  }
-  
+for (let deus of deuses) {
+  let nomeDeus = "<li>"+deus+"<li>";
+  document.getElementById("nomes").innerHTML += nomeDeus;
 }
+  
+
