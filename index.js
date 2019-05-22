@@ -13,8 +13,11 @@ let total = deuses.push("Loki");
 console.log(deuses);*/
 
 var deuses = ["Aegir", "Aud", "Balder", "Bragi", "Búri", "Dag", "Dellingr"];
-document.querySelector("nomes").innerHTML = deuses;
 
-function myFunction() {
-  deuses.push("Loki");
-  document.querySelector("nomes").innerHTML = deuses;
+function addDeus{
+  deuses.push("Loki")
+  document.getElementById("nomes").innerHTML = nomes;
+    alert()
+  }
+  
+}
